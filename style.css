@@ -1,0 +1,44 @@
+h1 {
+    color: darkblue;
+    margin-top: 0;
+}
+h2 {
+    color: rgb(20, 78, 41);
+}
+a {
+    color: aqua;
+}
+body{
+    background-color: rgb(192, 160, 221);
+}
+img {
+    width: 500px;
+    margin-left: 20px;
+}
+.bigtext{
+    font-size: 1.5em;
+}
+@font-face {
+	font-family: 'Ballet Regular';
+	src: url('/fonts/ballet_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('/fonts/ballet_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/fonts/ballet_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/ballet_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/ballet_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/ballet_regular.svg#ballet_regular') format('svg'); /* Chrome < 4, Legacy iOS */}
+
+p:not(.bigtext){
+    font-family: 'Ballet Regular', sans-serif;
+}
+ul{
+list-style-type: square;
+}
+a:hover{
+    color: blueviolet;
+}
+#box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(212, 177, 246);
+}
